@@ -1,0 +1,26 @@
+fibo series
+
+#include<stdio.h>
+int main()
+{
+int n ,i,a=0,b=1,c;
+c=a+b;
+printf("Enter no.of.terms:");
+scanf("%d",&n);
+printf("Fibonacci series :%d %d ",a,b);
+for(i=3;i<=n;i++)
+{
+printf("%d ",c);
+a=b;
+b=c;
+c=a+b;
+}
+return 0;
+}
+
+output:
+user@user-HP-ProDesk-400-G1-SFF:~$ cc fibo.c
+user@user-HP-ProDesk-400-G1-SFF:~$ ./a.out
+Enter no.of.terms:2
+Fibonacci series :0 1 user@user-HP-ProDesk-400-G1-SFF:~$ 
+
