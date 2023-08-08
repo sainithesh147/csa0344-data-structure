@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+int a[20],i,n;
+printf("Enter no.of.elements:");
+scanf("%d",&n);
+printf("Enter elements:");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("Even numbers in an array:\n");
+
+for(i=0;i<n;i++)
+{
+if (a[i]%2==0)
+
+   printf("%d ",a[i]);
+}
+printf("Odd numbers in an array:\n");
+for(i=0;i<n;i++)
+{
+if(a[i]%2!=0)
+ 
+  printf("%d ",a[i]);
+}
+}
+
+
+output:
+user@user-HP-ProDesk-400-G1-SFF:~$ cc oddeven.c
+user@user-HP-ProDesk-400-G1-SFF:~$ ./a.out
+Enter no.of.elements:2
+Enter elements:4 
+7
+Even numbers in an array:
+4 Odd numbers in an array:
+7 user@user-HP-ProDesk-400-G1-SFF:~$
