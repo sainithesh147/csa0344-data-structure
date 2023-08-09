@@ -32,3 +32,14 @@ printf("The key element found at %d",mid+1 );
 else 
 printf("The key element is not found");
 }
+
+output:
+@user-HP-ProDesk-400-G1-SFF:~$ cc binary.c
+user@user-HP-ProDesk-400-G1-SFF:~$ ./a.out
+Enter n:
+2
+Enter elements i a sorted order:34
+47
+Enter key element to search:
+34
+The key element found
