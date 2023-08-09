@@ -1,0 +1,27 @@
+// sai nithesh 192210574			
+#include<stdio.h>			
+int main()
+{
+int i,n,a[50],key,flag=0;
+printf("Enter n:\n");
+scanf("%d",&n);
+printf("Enter elements:");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("Enter key element to search:\n");
+scanf("%d",&key);
+for(i=0;i<n;i++)
+{
+if(a[i]==key)
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+printf("The key is found at %d",i+1);
+els
+printf("The key is not found");
+} 
