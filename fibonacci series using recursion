@@ -22,3 +22,13 @@ return 1;
 else
 return (Fibonacci(n-1)+Fibonacci(n-2));
 }
+output:
+user@user-HP-ProDesk-400-G1-SFF:~$ cc fibonaccir.c
+user@user-HP-ProDesk-400-G1-SFF:~$ ./a.out
+Enter n:
+2
+Enter elements:5
+7
+Enter key element to search:
+7
+The key is found 
